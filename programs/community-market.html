@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Community Market — The Community Haven</title>
+<meta name="description" content="The Community Market is a weekly Saturday market at The Community Haven in Bushtown, Chattanooga, featuring food and merchandise vendors.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2314213D'/%3E%3Crect x='5' y='9' width='13' height='6' fill='%23E8963C'/%3E%3Crect x='19' y='17' width='8' height='6' fill='%232E8C86'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="header-inner">
+    <a class="wordmark" href="../index.html">The Community <span>Haven</span></a>
+    <nav aria-label="Primary">
+      <div class="nav-links">
+        <a href="../index.html#story">Our story</a>
+        <a href="../index.html#programs">Programs</a>
+        <a href="../index.html#wall">The block</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <a href="../donate.html" class="btn btn-brick">Donate</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main id="main">
+
+<div class="page-hero">
+  <div class="crumb"><a href="../index.html">Home</a> / <a href="../index.html#programs">Programs</a> / Community Market</div>
+  <h1>Community Market</h1>
+  <p>A weekly Saturday market on the block, open to food and merchandise vendors from the neighborhood and beyond.</p>
+</div>
+
+<section class="content-section">
+  <div class="wrap">
+    <div class="content-figure"><img src="../images/programs/marketpic002-522x781.png" alt="Community Market vendor setup"></div>
+    <h2>When it's open</h2>
+    <p>Every Saturday, 11:00am&ndash;6:00pm, from the first Saturday in April through the last Saturday in October. Check our <a href="../events.html" style="color:var(--teal); font-weight:600;">events calendar</a> for cancellations or schedule changes.</p>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="wrap" style="max-width:640px;">
+    <h2>Become a vendor</h2>
+    <p>Vendor space is limited and offered first-come, first-served. Vendors must register and prepay at least one month prior to their Saturday. The vendor fee is <strong>$20 per Saturday</strong> and is non-refundable.</p>
+    <form name="market-vendor" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form-grid">
+      <input type="hidden" name="form-name" value="market-vendor">
+      <p hidden><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+      <div class="form-field">
+        <label for="vendor-name">Your name / business name</label>
+        <input type="text" id="vendor-name" name="vendor-name" required>
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-field">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-field">
+        <label for="goods">What will you be selling?</label>
+        <textarea id="goods" name="goods" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-brick" style="justify-self:start;">Request a vendor spot</button>
+      <p class="form-note">Questions before you apply? Email <a href="mailto:thecommunityhaven@gmail.com" style="color:var(--teal); font-weight:600;">thecommunityhaven@gmail.com</a>.</p>
+    </form>
+    <p class="form-success">Thanks — we'll follow up with next steps and payment details.</p>
+  </div>
+</section>
+
+</main>
+
+<footer id="site-footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <div class="footer-brand">The Community Haven</div>
+      <div class="footer-links">
+        <a href="../index.html#story">Our story</a>
+        <a href="../index.html#programs">Programs</a>
+        <a href="../team.html">Our team</a>
+        <a href="../events.html">Events</a>
+        <a href="../donate.html">Donate</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/thecommunityhaven/">Facebook</a>
+        <a href="https://www.instagram.com/communityhaven/">Instagram</a>
+        <a href="https://www.youtube.com/@CommunityHavenChattanooga">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; <span id="year">2026</span> The Community Haven. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
