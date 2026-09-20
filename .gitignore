@@ -5,3 +5,6 @@ CommunityHavenWebsite-Sept2026 2/
 concept-dusk.html
 concept-dusk-route.html
 concept-dynamic.html
+
+# Local Netlify folder
+.netlify
