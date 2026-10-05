@@ -13,3 +13,4 @@ concept-dynamic.html
 *.jsonl
 memory/
 .DS_Store
+_to_delete/
