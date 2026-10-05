@@ -3,14 +3,19 @@ document.documentElement.classList.add('js');
 (function(){
   var header = document.querySelector('header');
   var toggle = document.querySelector('.menu-toggle');
+  function setToggle(open){
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    toggle.innerHTML = open ? '&#10005;' : '&#9776;';
+  }
   toggle.addEventListener('click', function(){
     var open = header.classList.toggle('nav-open');
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    setToggle(open);
   });
   header.querySelectorAll('.nav-links a').forEach(function(a){
     a.addEventListener('click', function(){
       header.classList.remove('nav-open');
-      toggle.setAttribute('aria-expanded', 'false');
+      setToggle(false);
     });
   });
 })();

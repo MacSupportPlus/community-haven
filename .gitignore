@@ -8,3 +8,8 @@ concept-dynamic.html
 
 # Local Netlify folder
 .netlify
+
+# Recovered Claude chat history — local only
+*.jsonl
+memory/
+.DS_Store
